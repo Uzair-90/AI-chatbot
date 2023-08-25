@@ -1,0 +1,110 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": ["Hi", "Hello", "Hey"],
+      "responses": ["Hello! How can I help you today?", "Hi there! How can I assist you?"]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye"],
+      "responses": ["Goodbye! Have a nice day!", "See you later!"]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "Appreciate it"],
+      "responses": ["You're welcome!", "No problem, happy to help!"]
+    },
+    {
+      "tag": "cart_checkout",
+      "patterns": ["I'm ready to checkout", "Let's checkout now", "How do I complete my purchase?"],
+      "responses": ["Great! To complete your purchase, simply click the checkout button on your cart page and follow the prompts to enter your payment and shipping information. If you have any questions or issues, don't hesitate to reach out to our support team."]
+    },
+    {
+      "tag": "order_status",
+      "patterns": ["Can you give me an update on my order?", "Where is my package?", "When will my order arrive?"],
+      "responses": ["Sure! What's your order number?"]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "Appreciate it"],
+      "responses": ["You're welcome!", "No problem, happy to help!"]
+    },
+    {
+      "tag": "product_info",
+      "patterns": ["Tell me about t-shirts", "What's t-shirts all about?", "Give me some details about t-shirts"],
+      "responses": ["Sure, Our T-shirts come in a variety of styles, including crew neck, V-neck, and scoop neck, and are available in many different colors and patterns. We also offer a range of sizes to accommodate every body type.Our T-shirts are perfect for casual wear and can be easily paired with jeans, shorts, skirts, or leggings. They are also great for layering under jackets or sweaters during cooler weather.Whether you are looking for a classic solid color T-shirt or a bold graphic print, we have something to suit your style. We also offer T-shirts with slogans, logos, and images, so you can express yourself and make a statement with your clothing.At our store, we pride ourselves on offering high-quality T-shirts at affordable prices. Come visit us and find your perfect T-shirt today!. It's price is $18  and is currently in_stock. Is there anything else you'd like to know?"]
+    },
+    {
+      "tag": "product_info",
+      "patterns": ["Tell me about facewash", "What's facewash all about?", "Give me some details about facewash"],
+      "responses": ["Sure, Our face wash products are enriched with natural extracts and essential oils that help to soothe and calm the skin, while also providing anti-aging benefits. They are free from harsh chemicals such as sulfates, parabens, and phthalates, making them safe and gentle for daily use.Whether you have dry, oily, or combination skin, our face wash products will help you achieve a healthy, radiant complexion. Our knowledgeable staff is available to help you choose the right product for your skin type and concerns, and we are committed to providing you with the best customer service and quality products.At our store, we believe that everyone deserves to have beautiful, healthy skin, and we are dedicated to helping you achieve your skincare goals. Come visit us and find the perfect face wash for your skincare routine today!. It's price is around $25 and is currently in_stock. Is there anything else you'd like to know?"]
+    },
+    {
+      "tag": "product_recommendation",
+      "patterns": ["What clothing product do you recommend?", "Can you suggest a good clothing product?", "Which clothing product is popular?"],
+      "responses": ["We have a great selection of clothing product. Some of our popular options include t-shirts, sweaters, and jackets. Which one would you like to learn more about?"]
+    },
+    {
+      "tag": "product_search",
+      "patterns": ["Can you help me find t-shirts?", "I'm looking for t-shirts.", "Where can I find t-shirts?"],
+      "responses": ["Certainly! t-shirts is available at our New York outlet, Las Vegas outlet, and London outlet. Which location is most convenient for you?"]
+    },
+    {
+      "tag": "product_search",
+      "patterns": ["Can you help me find facewash?", "I'm looking for facewash.", "Where can I find facewash?"],
+      "responses": ["Certainly! [product_name] is available at our New York outlet, Las Vegas outlet, and London outlet. Which location is most convenient for you?"]
+    },
+    {
+      "tag": "cart_addition",
+      "patterns": ["Add plain t-shirt to my cart", "Put plain t-shirts in my cart", "I want to buy plain t-shirts"],
+      "responses": ["Sure thing! plain t-shirts has been added to your cart. Would you like to checkout or continue shopping?"]
+    },
+    {
+      "tag": "recommend_tshirts_summer",
+      "patterns": ["Can you recommend some t-shirts for summer?", "What t-shirts are good for hot weather?", "I need some t-shirts for summer"],
+      "responses": ["Sure, we recommend our lightweight cotton t-shirts for summer. They're breathable and comfortable in hot weather. Would you like to see some examples?"],
+      "product_recommendations": [
+        {
+          "name": "Cotton T-Shirt",
+          "description": "Our cotton t-shirts are perfect for summer. They're lightweight, breathable, and come in a variety of colors.",
+          "image": "https://example.com/cotton-t-shirt.jpg",
+          "link": "https://example.com/products/cotton-t-shirt",
+          "category": "T-Shirts",
+          "price": 19.99
+        },
+        {
+          "name": "V-Neck T-Shirt",
+          "description": "Our v-neck t-shirts are great for hot weather. They're made from a soft, breathable fabric and come in a variety of colors.",
+          "image": "https://example.com/v-neck-t-shirt.jpg",
+          "link": "https://example.com/products/v-neck-t-shirt",
+          "category": "T-Shirts",
+          "price": 24.99
+        }
+      ]
+    },
+    {
+      "tag": "recommend_tshirts_winter",
+      "patterns": ["What t-shirts are good for cold weather?", "I need some t-shirts for winter", "Can you recommend some t-shirts for winter?"],
+      "responses": ["For colder weather, we recommend our long-sleeve t-shirts. They're made from a thicker, warmer fabric that will keep you comfortable. Would you like to see some examples?"],
+      "product_recommendations": [
+        {
+          "name": "Long-Sleeve T-Shirt",
+          "description": "Our long-sleeve t-shirts are perfect for colder weather. They're made from a thicker, warmer fabric and come in a variety of colors.",
+          "image": "https://example.com/long-sleeve-t-shirt.jpg",
+          "link": "https://example.com/products/long-sleeve-t-shirt",
+          "category": "T-Shirts",
+          "price": 29.99
+        },
+        {
+          "name": "Crewneck T-Shirt",
+          "description": "Our crewneck t-shirts are great for layering in the winter. They're made from a soft, warm fabric and come in a variety of colors.",
+          "image": "https://example.com/crewneck-t-shirt.jpg",
+          "link": "https://example.com/products/crewneck-t-shirt",
+          "category": "T-Shirts",
+          "price": 34.99
+        }
+      ]
+    }     
+  ]
+}
